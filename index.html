@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#080808">
+<title>APICA — Am I me?</title>
+<meta name="description" content="APICA — independent developer. Creator of WHOAMI, a narrative adventure about loneliness, releasing 1 January 2027.">
+<meta property="og:title" content="APICA — Am I me?"><meta property="og:description" content="WHOAMI — a narrative adventure about loneliness. 1 January 2027."><meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="./assets/apica-avatar.png">
+<link rel="stylesheet" href="./styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav aria-label="Main" data-i18n-aria="mainNav"><div class="wrap">
+<a class="lg" href="#home">APICA</a>
+<a href="#home" data-i18n="navHome">Home</a><a href="#about" data-i18n="navAbout">About</a><a href="#whoami" data-i18n="navProject">WhoAmI</a><a href="#skills" data-i18n="navSkills">Skills</a><a href="#journal" data-i18n="navJournal">Journal</a><a href="#socials" data-i18n="navSocials">Socials</a>
+<button data-go="terminal" aria-label="Open terminal" data-i18n-aria="openTerminal">&gt;_</button><button data-go="music" aria-label="Open music player" data-i18n-aria="openMusic">♪</button><button data-r="unknown" aria-label="Secret access" data-i18n-aria="secretAccess">?</button>
+<details class="language-menu"><summary id="language-toggle" aria-label="Language settings" data-i18n-aria="languageSettings"><span aria-hidden="true">文</span><span id="language-current">ES</span><span class="language-caret" aria-hidden="true">▾</span></summary><div class="language-options" role="group" aria-label="Choose language" data-i18n-aria="chooseLanguage"><button type="button" data-language="es" lang="es">ES <span>Castellano</span></button><button type="button" data-language="en" lang="en">EN <span>English</span></button><button type="button" data-language="ca" lang="ca">CA <span>Català</span></button></div></details>
+</div></nav>
+
+<main class="wrap">
+<section id="home">
+ <div class="hero">
+  <div class="win rv"><div class="bar"><span>apica.sys</span><span id="clk">--:--:--</span></div><div class="bd">
+   <svg id="wm" role="img" aria-label="APICA"></svg>
+   <p class="am" id="phrase"></p>
+   <div class="idn" id="idn"></div>
+   <p id="intro" style="margin:0"></p>
+   <div class="bt" id="boot" aria-label="System messages" data-i18n-aria="bootMessagesAria"></div>
+   <div class="chips" id="hs"></div>
+  </div></div>
+  <div class="card rv"><div style="display:flex;gap:14px;align-items:center"><img id="av" src="./assets/interrogante_glitch4.gif" width="88" height="88" alt="APICA avatar: a glitching pixel-art question mark" data-i18n-alt="avatarAlt">
+   <div><div class="px" style="color:var(--hi);font-weight:700">APICA</div><div>@apica</div><div class="lab" style="margin-top:6px"><span class="dot"></span><span data-i18n="unstable">SYSTEM: UNSTABLE</span></div></div></div>
+   <a class="lgo" href="#whoami" aria-label="WHOAMI, jump to project" data-i18n-aria="jumpToProject"><img src="./assets/whoami-logo.gif" alt="WHOAMI logo"></a><p style="font-size:13px;margin:0"><span data-i18n="developing">Currently developing WHOAMI</span> · <b class="px" style="color:var(--hi);font-size:11px" id="cd"></b></p></div>
+ </div>
+</section>
+
+<section id="about"><h2 data-i18n="aboutTitle">About me</h2><p class="sub" data-i18n="aboutSubtitle">// who is apica?</p>
+ <div class="card rv" id="bio"></div></section>
+
+<section id="whoami"><h2>WHOAMI</h2><p class="sub" data-i18n="projectSubtitle">// a game by apica · narrative adventure · godot</p>
+ <div class="wh rv"><div class="top"><div class="art" id="art"></div>
+  <div class="info"><h3>WHOAMI</h3><div class="lab" data-i18n="gameBy">A GAME BY APICA</div><div class="stt" id="stt"></div>
+   <p id="wd" style="margin:6px 0 14px"></p><dl id="wf"></dl><div class="chips" id="wl"></div></div></div></div>
+ <h3 class="sub2" data-i18n="trailer">Trailer</h3><div id="tr"></div>
+ <h3 class="sub2" data-i18n="screenshots">Screenshots</h3><div class="gal" id="gal"></div>
+ <div class="two"><div><h3 class="sub2" data-i18n="updates">News &amp; updates</h3><div class="tl" id="dd"></div></div>
+ <div><h3 class="sub2" data-i18n="developerNotes">Developer notes</h3><div class="card" id="dn"></div></div></div>
+</section>
+
+<section id="skills"><h2 data-i18n="skillsTitle">Tools &amp; technologies</h2><p class="sub" data-i18n="skillsSubtitle">// software library · no levels, no bars</p>
+ <div class="grid" id="sk"></div>
+ <div class="card rv" style="margin-top:16px"><dl id="devf"></dl></div></section>
+
+<section id="currently"><h2>Currently.exe</h2><p class="sub" data-i18n="currentlySubtitle">// WHAT I’M WORKING ON</p><div class="grid" id="cu"></div></section>
+
+<section id="journal"><h2 data-i18n="journalTitle">Digital journal</h2><p class="sub" data-i18n="journalSubtitle">// NOTES FROM THE DEVELOPMENT PROCESS</p><div class="tl" id="jr"></div></section>
+
+<section id="socials"><h2 data-i18n="socialsTitle">Socials</h2><p class="sub" data-i18n="socialsSubtitle">// find me around the internet</p><div class="grid" id="so" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr))"></div></section>
+
+<section id="music"><h2 data-i18n="musicTitle">Now playing</h2><p class="sub" data-i18n-html="musicSubtitle">// <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span> spotify · nothing plays until you press play</p>
+ <div class="win rv"><div class="bar"><span data-i18n="playlist">MY PLAYLIST</span><span>spotify</span></div><div class="bd">
+  <p style="margin:0 0 14px" data-i18n="playlistDescription">A collection of sounds from my corner of the internet.</p>
+  <div class="spw"><iframe title="APICA’s playlist on Spotify" data-i18n-title="playlistTitle" src="https://open.spotify.com/embed/playlist/7oisu8uAHTDKaayllcPeNb" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+  <p class="ph" style="font-size:12px;margin:0 0 12px" data-i18n="spotifyHelp">Player not loading? Spotify may be blocked here. Open the playlist directly instead.</p>
+  <a class="btn" href="https://open.spotify.com/playlist/7oisu8uAHTDKaayllcPeNb" target="_blank" rel="noopener" data-i18n="openSpotify">Open in Spotify ↗</a></div></div></section>
+
+<section id="terminal"><h2 data-i18n="terminalTitle">Terminal</h2><p class="sub" data-i18n="terminalSubtitle">// simulated · runs nothing real</p>
+ <div class="win"><div class="bar"><span>APICA TERMINAL v1.0</span><span data-i18n="terminalHelp">help</span></div><div class="bd"><div id="to" role="log" aria-live="polite" tabindex="0"></div></div>
+ <form id="tf" autocomplete="off"><span>&gt;</span><input id="ti" aria-label="Terminal command" data-i18n-aria="terminalInput" spellcheck="false" autocapitalize="off"><span class="cur" aria-hidden="true"></span></form></div></section>
+
+</main>
+
+<footer><div class="wrap"><div class="px" data-i18n="footerCopyright">© 2026 APICA — AM I ME?</div><div class="px" style="color:var(--tx2)"><span data-i18n="footerMessage">THANKS FOR VISITING · TRY TYPING A NAME</span> · <a href="#system" style="color:#444" aria-label="system page" data-i18n-aria="systemPage">sys</a></div><div id="asc" aria-hidden="true"></div></div></footer>
+<a class="btn up" id="up" href="#home" aria-label="Back to top" data-i18n-aria="backToTop">▲</a>
+
+<div class="ov" id="gl" hidden role="dialog" aria-modal="true" aria-label="Identity found"></div>
+<div class="ov" id="sec" hidden role="dialog" aria-modal="true"></div>
+<div class="ov" id="lb" hidden role="dialog" aria-modal="true" aria-label="Image viewer" style="display:none"></div>
+
+<script src="./script.js" defer></script>
+</body>
+</html>
