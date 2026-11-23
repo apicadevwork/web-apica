@@ -3,7 +3,7 @@ window.APICA_LOCALES = {
   "es": {
     // Language and page metadata
     "code": "ES",
-    "title": "APICA — ¿Soy yo?",
+    "title": "APICA · ¿Soy yo?",
     "description": "APICA, desarrollador independiente y creador de WHOAMI, una aventura narrativa sobre la soledad.",
     // Accessibility labels
     "mainNav": "Navegación principal",
@@ -55,7 +55,7 @@ window.APICA_LOCALES = {
     "terminalHelp": "ayuda",
     "unstable": "SISTEMA: INESTABLE",
     "developing": "Desarrollando WHOAMI",
-    "footerCopyright": "© 2026 APICA — ¿SOY YO?",
+    "footerCopyright": "© 2026 APICA · ¿SOY YO?",
     "footerMessage": "GRACIAS POR VISITAR · PRUEBA A ESCRIBIR UN NOMBRE",
     // Home and About sections
     "phrase": "¿Soy yo?",
@@ -172,7 +172,7 @@ window.APICA_LOCALES = {
   "en": {
     // Language and page metadata
     "code": "EN",
-    "title": "APICA — Am I me?",
+    "title": "APICA · Am I me?",
     "description": "APICA, independent developer and creator of WHOAMI, a narrative adventure about loneliness.",
     // Accessibility labels
     "mainNav": "Main navigation",
@@ -224,7 +224,7 @@ window.APICA_LOCALES = {
     "terminalHelp": "help",
     "unstable": "SYSTEM: UNSTABLE",
     "developing": "Currently developing WHOAMI",
-    "footerCopyright": "© 2026 APICA — AM I ME?",
+    "footerCopyright": "© 2026 APICA · AM I ME?",
     "footerMessage": "THANKS FOR VISITING · TRY TYPING A NAME",
     // Home and About sections
     "phrase": "Am I me?",
@@ -341,7 +341,7 @@ window.APICA_LOCALES = {
   "ca": {
     // Language and page metadata
     "code": "CA",
-    "title": "APICA — Soc jo?",
+    "title": "APICA · Soc jo?",
     "description": "APICA, desenvolupador independent i creador de WHOAMI, una aventura narrativa sobre la solitud.",
     // Accessibility labels
     "mainNav": "Navegació principal",
@@ -393,7 +393,7 @@ window.APICA_LOCALES = {
     "terminalHelp": "ajuda",
     "unstable": "SISTEMA: INESTABLE",
     "developing": "Desenvolupant WHOAMI",
-    "footerCopyright": "© 2026 APICA — SOC JO?",
+    "footerCopyright": "© 2026 APICA · SOC JO?",
     "footerMessage": "GRÀCIES PER LA VISITA · PROVA D’ESCRIURE UN NOM",
     // Home and About sections
     "phrase": "Soc jo?",
