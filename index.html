@@ -8,7 +8,7 @@
 <meta name="description" content="APICA — independent developer. Creator of WHOAMI, a narrative adventure about loneliness, releasing 1 January 2027.">
 <meta property="og:title" content="APICA — Am I me?"><meta property="og:description" content="WHOAMI — a narrative adventure about loneliness. 1 January 2027."><meta property="og:type" content="website">
 <link rel="icon" type="image/png" href="./assets/apica-avatar.png">
-<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./styles.css?v=4">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=VT323&display=swap" rel="stylesheet">
 </head>
@@ -52,7 +52,7 @@
 
 <section id="skills"><h2 data-i18n="skillsTitle">Tools &amp; technologies</h2><p class="sub" data-i18n="skillsSubtitle">// software library · no levels, no bars</p>
  <div class="grid" id="sk"></div>
- <div class="card rv" style="margin-top:16px"><dl id="devf"></dl></div></section>
+ </section>
 
 <section id="currently"><h2>Currently.exe</h2><p class="sub" data-i18n="currentlySubtitle">// WHAT I’M WORKING ON</p><div class="grid" id="cu"></div></section>
 
@@ -63,7 +63,7 @@
 <section id="music"><h2 data-i18n="musicTitle">Now playing</h2><p class="sub" data-i18n-html="musicSubtitle">// <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span> spotify · nothing plays until you press play</p>
  <div class="win rv"><div class="bar"><span data-i18n="playlist">MY PLAYLIST</span><span>spotify</span></div><div class="bd">
   <p style="margin:0 0 14px" data-i18n="playlistDescription">A collection of sounds from my corner of the internet.</p>
-  <div class="spw"><iframe title="APICA’s playlist on Spotify" data-i18n-title="playlistTitle" src="https://open.spotify.com/embed/playlist/7oisu8uAHTDKaayllcPeNb" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+  <div class="spw"><iframe title="APICA’s playlist on Spotify" data-i18n-title="playlistTitle" src="https://open.spotify.com/embed/playlist/7oisu8uAHTDKaayllcPeNb?theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
   <p class="ph" style="font-size:12px;margin:0 0 12px" data-i18n="spotifyHelp">Player not loading? Spotify may be blocked here. Open the playlist directly instead.</p>
   <a class="btn" href="https://open.spotify.com/playlist/7oisu8uAHTDKaayllcPeNb" target="_blank" rel="noopener" data-i18n="openSpotify">Open in Spotify ↗</a></div></div></section>
 
@@ -80,6 +80,9 @@
 <div class="ov" id="sec" hidden role="dialog" aria-modal="true"></div>
 <div class="ov" id="lb" hidden role="dialog" aria-modal="true" aria-label="Image viewer" style="display:none"></div>
 
-<script src="./script.js" defer></script>
+<!-- Editable data and translations load before the page behavior. -->
+<script src="./content.js?v=3" defer></script>
+<script src="./locales.js?v=4" defer></script>
+<script src="./script.js?v=5" defer></script>
 </body>
 </html>
